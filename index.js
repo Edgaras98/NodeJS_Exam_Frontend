@@ -1,7 +1,7 @@
 //Login Validation
 
 const logInForm = document.getElementById("loginform");
-const url = "http://localhost:3000/v1/auth/login";
+const url = "https://split-bill-b-lrpdk.ondigitalocean.app/back/v1/auth/login";
 
 logInForm.addEventListener("submit", (e) => {
   const emailLog = document.getElementById("emaillog");
