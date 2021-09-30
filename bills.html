@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="bills.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/300px-Google_%22G%22_Logo.svg.png"
+        alt="logo"
+      />
+      <h1>Group's Bills:</h1>
+    </header>
+    <main>
+      <section id="grpbill">
+        <table id="billtable">
+          <tr>
+            <th>ID</th>
+            <th>Amount</th>
+            <th>Description</th>
+          </tr>
+          <tr></tr>
+        </table>
+        <form id="addbill">
+          <h2>Add Bill</h2>
+          <input type="text" placeholder="Amount" id="billinput" required />
+          <input
+            type="text"
+            placeholder="Description"
+            id="descinput"
+            required
+          />
+          <button>Add Bill</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

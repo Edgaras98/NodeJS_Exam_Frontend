@@ -1,0 +1,87 @@
+/* Styling Body */
+
+* {
+  background-color: #fff;
+}
+
+/* Styling Log in Form */
+header {
+  padding-top: 5rem;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+header img {
+  width: 5rem;
+}
+
+main form {
+  text-align: left;
+  width: 30rem;
+  height: rem;
+  margin: 0 auto;
+}
+
+main form input {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1.5px solid gray;
+  outline: none;
+}
+
+main form input:hover {
+  border: 1.5px solid green;
+}
+
+main form button {
+  border: 1px solid black;
+  color: black;
+  width: 5rem;
+  padding: 0.5rem;
+}
+
+main form button:active {
+  background-color: green;
+  color: white;
+  border: none;
+}
+/* Content */
+#groupp {
+  text-align: center;
+  font-size: 2rem;
+  color: gray;
+}
+
+#groupselection {
+  width: 80%;
+  margin: 0 auto;
+  min-height: 35vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#grpbill {
+  padding: 10rem;
+  text-align: center;
+}
+
+/* Styling Table in Bills */
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
