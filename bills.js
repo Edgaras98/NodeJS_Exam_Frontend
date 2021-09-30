@@ -3,7 +3,7 @@ const queryString = window.location.search;
 const token = localStorage.getItem("token");
 const params = queryString.split("=")[1];
 const table = document.getElementById("billtable");
-const urlBill = "http://localhost:3000/v1/content/bills";
+const urlBill = "https://split-bill-b-lrpdk.ondigitalocean.app/back/v1/content/bills";
 const section = document.getElementById("grpbill");
 const addBillForm = document.getElementById("addbill");
 
