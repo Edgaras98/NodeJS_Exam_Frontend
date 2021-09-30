@@ -1,6 +1,6 @@
 //Registration validation and Posting to DB
 const regForm = document.getElementById("regform");
-const url = "http://localhost:3000/v1/auth/register";
+const url = "https://split-bill-b-lrpdk.ondigitalocean.app/back/v1/auth/register";
 
 regForm.addEventListener("submit", (e) => {
   const fullname = document.getElementById("fullname");
