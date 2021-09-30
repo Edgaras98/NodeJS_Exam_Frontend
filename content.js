@@ -1,6 +1,6 @@
 //Creating variables
 const token = localStorage.getItem("token");
-const urlContent = "http://localhost:3000/v1/content/accounts";
+const urlContent = "https://split-bill-b-lrpdk.ondigitalocean.app/back/v1/content/accounts";
 const addGroupForm = document.getElementById("addgroup");
 
 //Getting Content
